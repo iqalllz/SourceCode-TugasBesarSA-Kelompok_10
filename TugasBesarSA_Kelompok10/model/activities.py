@@ -8,7 +8,7 @@ class Activity:
 
     def display_activities(self):
         print("Daftar Kegiatan:")
-        for i, activity in enumerate(self.activities):
+        for i, activity in enumerate(self.activities);
             print(f"{i+1}. {activity}")
 
     def add_activity(self, new_activity):
